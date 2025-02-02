@@ -1,6 +1,8 @@
-package hello
+package hello_test
+
+import "github.com/lazarcloud/go-hello"
 
 func ExampleSaySomething() {
-	SaySomething()
+	hello.SaySomething()
 	// Output: Hello, world!
 }
